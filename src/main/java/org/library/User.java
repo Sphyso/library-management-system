@@ -10,4 +10,10 @@ abstract class User {
         this.name = name;
         this.email = email;
     }
+
+    public void displayProfile() {
+        System.out.println("User id is: "+ this.userId +"\n"+
+                            "User name is: "+ this.name +"\n"+
+                            "User email is: "+ this.email);
+    }
 }
