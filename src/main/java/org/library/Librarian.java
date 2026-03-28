@@ -6,5 +6,16 @@ public class Librarian extends User {
         super(userId, name, email);
     }
 
+    public void addBook(Book book) {
+
+    }
+
+    public void removeBook(String isbn) {
+
+    }
+
+    public void issueBook(Book book, Member member) {
+
+    }
 
 }
