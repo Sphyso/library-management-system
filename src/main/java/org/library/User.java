@@ -28,4 +28,9 @@ abstract class User {
                             "User name is: "+ this.name +"\n"+
                             "User email is: "+ this.email);
     }
+
+
+    public String ToString() {
+        return "Name: " +this.getName()+ "Email: " +this.getEmail();
+    }
 }

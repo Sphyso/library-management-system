@@ -18,4 +18,9 @@ public class Librarian extends User {
 
     }
 
+    @Override
+    public String ToString() {
+        return "Name: " +this.getName()+ "Email: " +this.getEmail();
+    }
+
 }
